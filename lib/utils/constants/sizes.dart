@@ -1,0 +1,90 @@
+/* -- App Sizes -- */
+
+/// This class contain all the sizes in double format
+class TSizes {
+  TSizes._(); //-- To avoid creating instances
+
+  // Padding and margin sizes
+  static const double xs = 4.0;
+  static const double sm = 8.0;
+  static const double md = 16.0;
+  static const double lg = 24.0;
+  static const double xl = 32.0;
+
+  // Icon sizes
+  static const double iconXs = 12.0;
+  static const double iconSm = 16.0;
+  static const double iconMd = 24.0;
+  static const double iconLg = 32.0;
+
+  // Font sizes
+  static const double fontSizeSm = 14.0;
+  static const double fontSizeMd = 16.0;
+  static const double fontSizeLg = 18.0;
+
+  // Button sizes
+  static const double buttonHeight = 50.0;
+  static const double buttonRadius = 12.0;
+  static const double buttonTextSize = buttonHeight / 2;
+  static const double buttonSideWidth = 1.0;
+  static const double buttonWidth = 120.0;
+  static const double buttonElevation = 0.0;
+
+  // AppBar height
+  static const double appBarHeight = 56.0;
+
+  // Image sizes
+  static const double imageThumbSize = 80.0;
+
+  // Default spacing between sections
+  static const double defaultSpace = 24.0;
+  static const double spaceBtwItems = 16.0;
+  static const double spaceBtwSections = 32.0;
+
+  // Border radius
+  static const double borderRadiusSm = 4.0;
+  static const double borderRadiusMd = 8.0;
+  static const double borderRadiusLg = 12.0;
+
+  // Divider height
+  static const double dividerHeight = 1.0;
+
+
+  // Input field
+  static const double inputFieldRadius = 12.0;
+  static const double inputFieldSideWidth = 1.0;
+  static const double inputFieldSelectedSideWidth = 1.5;
+  static const double spaceBtwInputFields = 16.0;
+
+  // Card sizes
+  static const double cardRadiusLg = 16.0;
+  static const double cardRadiusMd = 12.0;
+  static const double cardRadiusSm = 10.0;
+  static const double cardRadiusXs = 6.0;
+  static const double cardElevation = 2.0;
+
+  // Image sizes
+  static const double imageXs = 32.0;
+  static const double imageSm = 64.0;
+  static const double imageMd = 144.0;
+  static const double imageLg = 168.0;
+
+  // AppBar sizes
+  static const double appBarText = 55.0;
+
+  // Image carousel height
+  static const double imageCarouselHeight = 200.0;
+
+  // Loading indicator size
+  static const double loadingIndicatorSize = 36.0;
+
+  // Grid view spacing
+  static const double gridViewSpacing = 16.0;
+
+
+  // Location picker size
+  static const double locationPickerXs = 24.0;
+  static const double locationPickerSm = 48.0;
+  static const double locationPickerMd = 64.0;
+  static const double locationPickerLg = 144.0;
+}
